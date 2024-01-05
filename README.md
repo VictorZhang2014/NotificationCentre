@@ -1,6 +1,6 @@
-# NotificationCentre
+# NotificationCenter
 
-A lightweight publisher/observer open-source library used for messaging to run through the entire Flutter applications.
+A lightweight publisher/observer open-source library used for messaging to run through the entire Flutter applications. Inspired by NotificationCenter in iOS and EventBus on in Android.
 
 
 ## Getting started
@@ -38,9 +38,14 @@ To remove an observer, we suggest that you put the below code inside `dispose()`
 
 To post the message throughout the entire application, you can use the below code with ease.
 ```dart
-  NotificationCenter().post(
+  NotificationCenter().postNotification(
       NOTIFICATION_NAME_PURCHASE_COMPLETED, 
       data: {"data": YOUR_DATA, "type": "completed"},
   );
 ```
  
+### Note
+
+For the `NotificationName`, it is just an ordinary String value, it can be any strings. 
+Just keep in mind, the `NotificationName` you defined is equal to when you call these three methods: `addObserver()`, `removeObserver()`, and `postNotification()`, pass through the `NotificationName` you set. 
+

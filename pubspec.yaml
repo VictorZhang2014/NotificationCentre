@@ -1,6 +1,6 @@
 name: notification_centre
-description: A lightweight publisher/observer open-source library used for messaging to run through the entire Flutter applications.
-version: 0.0.2
+description: "A lightweight publisher/observer open-source library used for messaging to run through the entire Flutter applications. Inspired by NotificationCenter in iOS and EventBus on in Android."
+version: 0.0.3
 repository: https://github.com/VictorZhang2014/NotificationCentre
 issue_tracker: https://github.com/VictorZhang2014/NotificationCentre/issues
 
