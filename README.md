@@ -5,7 +5,7 @@ A lightweight publisher/observer open-source library used for messaging to run t
 
 ## Getting started
 
-The `NotificationCentre` in Flutter is inspired by `NSNotificationCenter` in iOS development, since it is used anywhere inside iOS (Swift/Objective-C) codebase, we are very familar with the the model of publisher/observer. Thinking of you, as an Android developer who has knowledge and is familar with `EventBus`.
+The `NotificationCentre` in Flutter is inspired by `NotificationCenter` in iOS and `EventBus` in Android, since it is used anywhere inside iOS (Swift/Objective-C) codebase, we are very familiar with the model of publisher&observer. Thinking of you, as an Android developer who has knowledge and is such familiar with `EventBus`.
 
 
 ## Features
